@@ -1,4 +1,7 @@
 # AFTRHRS — NEXORA PRODUCTIONS
+## 🌐 Live Website
+
+[Visit AFTRHRS Website](https://aftrhrs-nexora.onrender.com/)
 ### FULL-STACK EVENT WEBSITE + RAZORPAY TEST PAYMENTS + DIGITAL TICKETING + QR SCANNER + ADMIN DASHBOARD
 
 > **Event**: AFTRHRS  
