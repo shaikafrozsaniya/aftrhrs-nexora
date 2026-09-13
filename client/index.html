@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/nexora-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>AFTRHRS — DAYLIGHT DESTROYED | Nexora Productions</title>
+    <meta name="description" content="AFTRHRS — DAYLIGHT DESTROYED. A high-energy daytime experience by Nexora Productions in Hyderabad on 20 September 2026." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nexoraproductions.com/aftrhrs" />
+    <meta property="og:title" content="AFTRHRS — DAYLIGHT DESTROYED | Nexora Productions" />
+    <meta property="og:description" content="A high-energy daytime experience in Hyderabad on 20 September 2026. Featuring DJ Jaedyn, DJ Pradeep, DJ Spider & Andru Visuals. Unlimited Food included." />
+    <meta property="og:image" content="/assets/teaser-mouth.png" />
+
+    <!-- Twitter / X -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://nexoraproductions.com/aftrhrs" />
+    <meta property="twitter:title" content="AFTRHRS — DAYLIGHT DESTROYED | Nexora Productions" />
+    <meta property="twitter:description" content="A high-energy daytime experience in Hyderabad on 20 September 2026. Unlimited Food. Non-stop music." />
+    <meta property="twitter:image" content="/assets/teaser-mouth.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Razorpay Checkout SDK -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+    <!-- Structured Data (Schema.org Event) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicEvent",
+      "name": "AFTRHRS — DAYLIGHT DESTROYED",
+      "startDate": "2026-09-20T12:00:00+05:30",
+      "endDate": "2026-09-20T17:00:00+05:30",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "OPEN YOUR MOUTH CLUB & KITCHEN",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jubilee Hills",
+          "addressLocality": "Hyderabad",
+          "addressRegion": "Telangana",
+          "addressCountry": "IN"
+        }
+      },
+      "image": [
+        "/assets/teaser-mouth.png",
+        "/assets/jaedyn.png",
+        "/assets/pradeep.png"
+      ],
+      "description": "AFTRHRS is a daytime experience built around music, movement, food and people. Meet new faces, find your people, lose yourself in the music and destroy the daylight.",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "1249",
+        "highPrice": "11000",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-09-01T00:00:00+05:30"
+      },
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "Jaedyn",
+          "jobTitle": "DJ / Producer"
+        },
+        {
+          "@type": "Person",
+          "name": "Pradeep",
+          "jobTitle": "DJ"
+        },
+        {
+          "@type": "Person",
+          "name": "Spider",
+          "jobTitle": "DJ"
+        }
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "Nexora Productions",
+        "url": "https://www.instagram.com/nexora.productions_/"
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-[#070709] text-[#E8E8ED] antialiased selection:bg-purple-600 selection:text-white overflow-x-hidden font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
